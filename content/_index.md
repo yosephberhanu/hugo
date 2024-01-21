@@ -62,12 +62,12 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: Graduate Research/Teaching Assistant
+          company: Virginia Tech
+          company_url: 'https://www.vt.edu'
+          company_logo: org-vt
+          location: Blacksburg, VA
+          date_start: '2023-08-25'
           date_end: ''
           description: |2-
               Responsibilities include:
@@ -75,13 +75,13 @@ sections:
               * Analysing
               * Modelling
               * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
+        - title: Lecturer
+          company: Addis Ababa University 
+          company_url: 'https://www.aau.edu.et'
+          company_logo: org-aau
+          location: Addis Ababa, Ethiopia
+          date_start: '2014-06-15'
+          date_end: '2023-07-30'
           description: Taught electronic engineering and researched semiconductor physics.
     design:
       columns: '2'
@@ -181,14 +181,14 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: Gallery
+  #     subtitle: ''
+  #     text: |-
+  #       {{< gallery album="demo" >}}
+    # design:
+    #   columns: '1'
   - block: collection
     id: featured
     content:
@@ -214,21 +214,21 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     columns: '2'
+  #     view: compact
+  # - block: tag_cloud
+  #   content:
+  #     title: Popular Topics
+  #   design:
+  #     columns: '2'
   - block: contact
     id: contact
     content:
